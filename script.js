@@ -139,6 +139,6 @@ generateDivs();
 //         'https://cafelp.nl/doneren/','_blank');    
 // }, false);
 
-// window.onbeforeunload = function() {
-//     return "you can not refresh the page";
-// }
+window.onbeforeunload = function() {
+    return "you can not refresh the page";
+}
